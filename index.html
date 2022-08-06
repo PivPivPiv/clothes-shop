@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans:ital@1&family=Roboto:ital,wght@0,300;0,500;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+    <script defer src="script.js"></script>
+    <title>FashionPress</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header__whiteStripe">
+        <div class="header__logoAndBtns width1000 d_flex_sb">
+          <div class="header__logo">
+            <a href="#"> <span class="red">FASHION</span>PRESS </a>
+          </div>
+          <div class="header__functionButtons">
+            <div class="header__functionBtn">
+              <a href="#">Join</a>
+            </div>
+            <div class="header__functionBtn">
+              <a href="#">Sign In</a>
+            </div>
+            <div class="header__functionBtn red">
+              <a href="#"
+                >Shopping Bag <span class="bagValue">(0)</span> <i class="fa-solid fa-bag-shopping"></i></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__blackStripe">
+        <nav class="header__navigation width1000">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">COMPANY PROFILE</a></li>
+            <li><a href="#">COMPANY REGISTRATION</a></li>
+            <li><a href="#">WISH LIST</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="slider">
+      <div class="slider__button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="11px"
+          height="18px"
+        >
+          <path
+            fill-rule="evenodd"
+            fill="rgb(255, 255, 255)"
+            d="M8.768,17.849 L0.133,9.213 L8.768,0.578 L10.757,2.566 L4.110,9.213 L10.757,15.861 L8.768,17.849 Z"
+          />
+        </svg>
+      </div>
+
+      <div class="slider__product">
+        <div class="slider__textblock">
+          <span class="slider__productSlogan"
+            >We provide worlds top fashion for less fashionpress.</span
+          >
+          <span class="slider__productDescription"
+            >FashionPress the name of hi class fashion web.</span
+          >
+        </div>
+
+        <div class="slider__img">
+          <img src=".\img\shutterstock_91579292.png" alt="Product image" />
+          <div class="slider__productPrice">
+            <span class="slider__productPrice--name">Product</span><br />
+            <span class="slider__productPrice--price"> $24.00</span><br />
+            <span class="slider__productPrice--deskription">Free PSD</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider__button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="11px"
+          height="18px"
+        >
+          <path
+            fill-rule="evenodd"
+            fill="rgb(255, 255, 255)"
+            d="M2.230,0.149 L10.866,8.785 L2.230,17.421 L0.242,15.432 L6.889,8.785 L0.242,2.138 L2.230,0.149 Z"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <div class="searchPanel">
+      <div class="searchPanel__things width1000">
+        <form class="searchPanel__searchField">
+          <span class="red searchTitle">SEARCH PRODUCT</span>
+          <input class="searchInput" type="text" />
+          <button class="searchSubmit" type="submit">
+            <i class="fa-solid fa-magnifying-glass white"></i>
+          </button>
+        </form>
+
+        <div class="searchPanel__contentSort">
+          <button class="sortBarsBtn red sortBtn fa-2x" type="button">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <button class="sortListBtn red sortBtn fa-2x" type="button">
+            <i class="fa-solid fa-list"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="content__background">
+      <div class="content width1000 d_flex_sb">
+        <aside class="asideMenus">
+          <section class="productsMenu">
+            <div class="productsMenu__heading">
+              <span class="white">PRODUCTS MENU</span>
+            </div>
+            <ul class="productsMenu__list">
+              <a href="#"><li class="productsMenu__li">Man</li></a>
+              <a href="#"><li class="productsMenu__li">Women</li></a>
+              <a href="#"><li class="productsMenu__li">Fashion 2022</li></a>
+              <a href="#"><li class="productsMenu__li">Kids</li></a>
+              <a href="#"><li class="productsMenu__li">Jeans</li></a>
+              <a href="#"><li class="productsMenu__li">Tshirt</li></a>
+              <a href="#"><li class="productsMenu__li">Top Fashion</li></a>
+              <a href="#"
+                ><li class="productsMenu__li">Summer Collection</li></a
+              >
+              <a href="#"><li class="productsMenu__li">Special Offer</li></a>
+            </ul>
+          </section>
+          <section class="mapBlock d_flex_center ">
+            <div class="map">
+              <img class="redPointer" src="img\svg\redPointer.svg" alt="pointer">
+              <img class="rounds" src="img\Group 18.png" alt="rounds">
+              <p class="delivering">DELIVERING</p>
+              <p class="worldwide">WORLD WIDE</p>
+            </div>
+          </section>
+          
+          <section class="twits">
+            <span class="red latestFromTwitter">Latest From Twitter</span>
+            <article class="twit">
+              <span class="twittext">
+                <span class="red">@crucio</span> what an incredible site! <br />
+                <span class="red">less than a minute ago</span>
+              </span>
+            </article>
+            <article class="twit">
+              <span class="twittext">
+                <span class="red">@lukebeck </span>love this theme, tons of
+                options, lots of goodies and crazy good support. I cant ask for
+                anything better! <br />
+                <span class="red">about 3 hours ago</span>
+              </span>
+            </article>
+            <article class="twit">
+              <span class="twittext">
+                <span class="red">@harikumar</span>@harikumar where do you get
+                support for account issues?
+                <span class="red">http://t.co/sr324nLrQw</span> <br />
+                <span class="red">less than a minute ago</span>
+              </span>
+            </article>
+          </section>
+          <section class="customerReview">
+            <span class="red latestFromTwitter">OUR HAPPY CLIENTS</span>
+            <p class="reviewText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              illum nisi laborum ducimus voluptatibus sint minus unde neque,
+              cupiditate consequatur adipisci saepe repudiandae, deleniti,
+              assumenda dolore porro soluta. Nulla deleniti mollitia culpa,
+              fugit dolores soluta, aliquam delectus impedit odio quos commodi,
+              obcaecati quibusdam! Reprehenderit necessitatibus itaque deserunt
+              quo, perferendis dolor?
+            </p>
+            <div class="speakingManIcons">
+              <div class="icons">
+                <div class="triangleToCloud">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="22px"
+                    height="18px"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      fill="rgb(255, 255, 255)"
+                      d="M0.0,0.333 L0.0,17.999 L21.333,0.666 L0.0,0.333 Z"
+                    />
+                  </svg>
+                </div>
+
+                <span class="signature">John Doe, Company Inc. </span>
+              </div>
+            </div>
+          </section>
+        </aside>
+
+        <main class="products">
+          <section class="products__selected">
+            <!-- <article class="products__row">
+              <div class="products__squareItem">
+                <div class="emblemHOT"><img class="hotTriangle" src="img\RedTriangle.png" alt="">
+                  <span class="hotWord">HOT</span></div>
+                <div class="product__img"><img src="img\items\Layer 65.png" alt="Product Image">
+                  </div>
+                <div class="product__nameAndCategory">
+                  <p class="product__name">Kids moon colorblock</p>
+                  <p class="product__category">Footed Tights</p>
+                </div>
+                <div class="product__priceAndOrderBtn">
+                  <div class="product__price">
+                    <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                  </div>
+                  <div class="product__orderBtn">
+                    <button >GET IT</button>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="products__longItem">
+                <div class="product__img">
+                  
+                  <img class="longImg" src="img\items\Layer 60.png" alt="Product Image">
+                </div>
+                <div class="products__longItem__nameCatPriceBtn">
+                  <div class="product__nameAndCategory longName d_flex_center">
+                    <p class="product__name">Serax fibrepots</p>
+                    
+                  </div>
+                  <div class="product__priceAndOrderBtn long ">
+                    <div class="product__price beforeBorder">
+                      <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                    </div>
+                    <div class="product__orderBtn">
+                      <button >GET IT</button>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              
+            </article> -->
+            <article class="products__row">
+              <div class="products__squareItem">
+                <div class="product__img"><img  src="img\items\10.png" alt="Product Image"></div>
+                <div class="product__nameAndCategory">
+                  <p class="product__name">Kids moon colorblock</p>
+                  <p class="product__category">Footed Tights</p>
+                </div>
+                <div class="product__priceAndOrderBtn">
+                  <div class="product__price">
+                    <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                  </div>
+                  <div class="product__orderBtn">
+                    <button >GET IT</button>
+                  </div>
+                </div>
+              </div>
+              <div class="products__longItem">
+                <div class="emblemExclusive"><img class="exclusiveTriangle" src="img\RedStripe.png" alt="">
+                  <span class="exclusiveWord">EXCLUSIVE</span></div>
+                <div class="product__img">
+                  <img src="img\items\Layer 60.png" alt="Product Image">
+                </div>
+                <div class="products__longItem__nameCatPriceBtn">
+                  <div class="product__nameAndCategory longName d_flex_center">
+                    <p class="product__name">Serax fibrepots</p>
+                    
+                  </div>
+                  <div class="product__priceAndOrderBtn long ">
+                    <div class="product__price beforeBorder">
+                      <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                    </div>
+                    <div class="product__orderBtn">
+                      <button >GET IT</button>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </article>
+            <article class="products__row">
+              <div class="products__squareItem">
+                <div class="emblemHOT"><img class="hotTriangle" src="img\RedTriangle.png" alt="">
+                  <span class="hotWord">HOT</span></div>
+                <div class="product__img"><img src="img\items\1.png" alt="Product Image"></div>
+                <div class="product__nameAndCategory">
+                  <p class="product__name">Kids moon colorblock</p>
+                  <p class="product__category">Footed Tights</p>
+                </div>
+                <div class="product__priceAndOrderBtn">
+                  <div class="product__price">
+                    <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                  </div>
+                  <div class="product__orderBtn">
+                    <button >GET IT</button>
+                  </div>
+                </div>
+              </div><div class="products__squareItem">
+                <div class="emblemExclusive"><img class="exclusiveTriangle" src="img\RedStripe.png" alt="">
+                  <span class="exclusiveWord">EXCLUSIVE</span></div>
+                <div class="product__img"><img src="img\items\2.png" alt="Product Image"></div>
+                <div class="product__nameAndCategory">
+                  <p class="product__name">Kids moon colorblock</p>
+                  <p class="product__category">Footed Tights</p>
+                </div>
+                <div class="product__priceAndOrderBtn">
+                  <div class="product__price">
+                    <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                  </div>
+                  <div class="product__orderBtn">
+                    <button >GET IT</button>
+                  </div>
+                </div>
+              </div><div class="products__squareItem">
+                <div class="product__img"><img src="img\items\3.png" alt="Product Image"></div>
+                <div class="product__nameAndCategory">
+                  <p class="product__name">Kids moon colorblock</p>
+                  <p class="product__category">Footed Tights</p>
+                </div>
+                <div class="product__priceAndOrderBtn">
+                  <div class="product__price">
+                    <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                  </div>
+                  <div class="product__orderBtn">
+                    <button >GET IT</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="products__row">
+              <div class="products__squareItem">
+                <div class="emblemHOT"><img class="hotTriangle" src="img\RedTriangle.png" alt="">
+                  <span class="hotWord">HOT</span></div>
+                <div class="product__img"><img src="img\items\4.png" alt="Product Image"></div>
+                <div class="product__nameAndCategory">
+                  <p class="product__name">Kids moon colorblock</p>
+                  <p class="product__category">Footed Tights</p>
+                </div>
+                <div class="product__priceAndOrderBtn">
+                  <div class="product__price">
+                    <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                  </div>
+                  <div class="product__orderBtn">
+                    <button >GET IT</button>
+                  </div>
+                </div>
+              </div><div class="products__squareItem">
+                <div class="product__img"><img src="img\items\5.png" alt="Product Image"></div>
+                <div class="product__nameAndCategory">
+                  <p class="product__name">Kids moon colorblock</p>
+                  <p class="product__category">Footed Tights</p>
+                </div>
+                <div class="product__priceAndOrderBtn">
+                  <div class="product__price">
+                    <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                  </div>
+                  <div class="product__orderBtn">
+                    <button >GET IT</button>
+                  </div>
+                </div>
+              </div><div class="products__squareItem">
+                <div class="product__img"><img src="img\items\6.png" alt="Product Image"></div>
+                <div class="product__nameAndCategory">
+                  <p class="product__name">Kids moon colorblock</p>
+                  <p class="product__category">Footed Tights</p>
+                </div>
+                <div class="product__priceAndOrderBtn">
+                  <div class="product__price">
+                    <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                  </div>
+                  <div class="product__orderBtn">
+                    <button >GET IT</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+            
+          </section>
+          <section class="products__popular">
+            <h3><span class="red">POPULAR</span>PRODUCTS NOW</h3>
+            <article class="products__row"><div class="products__squareItem">
+              <div class="product__img"><img src="img\items\7.png" alt="Product Image"></div>
+              <div class="product__nameAndCategory">
+                <p class="product__name">Kids moon colorblock</p>
+                <p class="product__category">Footed Tights</p>
+              </div>
+              <div class="product__priceAndOrderBtn">
+                <div class="product__price">
+                  <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                </div>
+                <div class="product__orderBtn">
+                  <button >GET IT</button>
+                </div>
+              </div>
+            </div><div class="products__squareItem">
+              <div class="product__img"><img src="img\items\8.png" alt="Product Image"></div>
+              <div class="product__nameAndCategory">
+                <p class="product__name">Kids moon colorblock</p>
+                <p class="product__category">Footed Tights</p>
+              </div>
+              <div class="product__priceAndOrderBtn">
+                <div class="product__price">
+                  <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                </div>
+                <div class="product__orderBtn">
+                  <button >GET IT</button>
+                </div>
+              </div>
+            </div><div class="products__squareItem">
+              <div class="product__img"><img src="img\items\9.png" alt="Product Image"></div>
+              <div class="product__nameAndCategory">
+                <p class="product__name">Kids moon colorblock</p>
+                <p class="product__category">Footed Tights</p>
+              </div>
+              <div class="product__priceAndOrderBtn">
+                <div class="product__price">
+                  <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                </div>
+                <div class="product__orderBtn">
+                  <button >GET IT</button>
+                </div>
+              </div>
+            </div></article>
+            <article class="products__row">
+              <div class="products__squareItem">
+                <div class="product__img"><img  src="img\items\10.png" alt="Product Image"></div>
+                <div class="product__nameAndCategory">
+                  <p class="product__name">Kids moon colorblock</p>
+                  <p class="product__category">Footed Tights</p>
+                </div>
+                <div class="product__priceAndOrderBtn">
+                  <div class="product__price">
+                    <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                  </div>
+                  <div class="product__orderBtn">
+                    <button >GET IT</button>
+                  </div>
+                </div>
+              </div>
+              <div class="products__longItem">
+                <div class="product__img">
+                  <img src="img\items\11.png" alt="Product Image">
+                </div>
+                <div class="products__longItem__nameCatPriceBtn">
+                  <div class="product__nameAndCategory longName d_flex_center">
+                    <p class="product__name">Serax fibrepots</p>
+                    
+                  </div>
+                  <div class="product__priceAndOrderBtn long ">
+                    <div class="product__price beforeBorder">
+                      <span class="dollarIcon">$ </span ><span class='dollars'>8.</span><span class="cents">99</span>
+                    </div>
+                    <div class="product__orderBtn">
+                      <button >GET IT</button>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </article>
+            
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerGreyBack">
+        <div class="footerContent width1000">
+          <section class="about footersec">
+            <h4 class="footerHeads">ABOUT</h4>
+            <div class="header__logo">
+              <a href="#"> <span class="red">FASHION</span>PRESS </a>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              hic soluta ad aliquid repudiandae placeat dignissimos error sequi
+              sunt esse.
+            </p>
+          </section>
+          <div class="whiteSpreader"></div>
+          <section class="follow footersec">
+            <h4 class="footerHeads">FOLLOW US</h4>
+            <a href="#"
+              ><div class="redSquare">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <span>FACEBOOK</span></a
+            >
+            <a href="#"
+              ><div class="redSquare"><i class="fa-brands fa-twitter"></i></div>
+              <span>TWITTER</span></a
+            >
+            <a href="#"
+              ><div class="redSquare">
+                <i class="fa-brands fa-google"></i>
+              </div>
+              <span>GOOGLE</span></a
+            >
+            <a href="#"
+              ><div class="redSquare">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <span>INSTAGRAM</span></a
+            >
+          </section>
+          <div class="whiteSpreader"></div>
+          <section class="contact footersec">
+            <h4 class="footerHeads">CONTACT INFO</h5>
+            <div class="phonesAdressField">
+              <div class="phones">
+                <span>Phone: 1.800.555.6789 </span>
+                <span> Fax: 1.888.555.9876</span>
+                <span>Email: letschat@11thagency.com</span>
+              </div>
+              <div class="adress">
+                <span>John Doe, Comapny Inc. </span>
+                <span>12345 North Main Street</span>
+                <span>Anywhere, USA</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="policy_rights_contact">
+        <div class="blackBg width1000">
+          <a href="#">Terms of Service</a> <span>•</span>
+          <a href="#">Privacy Policy</a><span>•</span>
+          <a href="#">Creative Rights Policy</a> <span>•</span>
+          <a href="#">Contact Us</a><span>•</span> <a href="#">Support & FAQ</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
