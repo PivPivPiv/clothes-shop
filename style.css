@@ -143,7 +143,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   height: inherit;
 }
@@ -257,7 +257,7 @@ body {
   display: block;
   width: 60%;
   height: 70%;
-  left: 45%;
+  left: 42%;
 }
 
 .slider__img img {
@@ -294,14 +294,15 @@ body {
   padding: 0 20px;
   background: linear-gradient(to right, #deeaf2, #f9efe6);
   border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
 }
 
 .searchPanel__things {
-  margin: auto;
-  padding-top: 0.5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .searchTitle {
@@ -847,11 +848,30 @@ footer {
   html {
     font-size: 10px;
   }
+  .slider__textblock {
+    width: 40%;
+    left: 7%;
+  }
+  .slider__img {
+    width: 55%;
+    left: 44%;
+  }
 }
 
 @media screen and (max-width: 540px) {
   html {
     font-size: 8px;
+  }
+  .slider__textblock {
+    left: 8%;
+  }
+  .slider__img {
+    width: 50%;
+    left: 46%;
+  }
+  .slider__productPrice--name,
+  .slider__productPrice--price {
+    font-size: 1.7rem;
   }
   .mapBlock,
   .twits,
