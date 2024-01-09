@@ -1,6 +1,6 @@
 ## Static web page of a clothing store
 
-[Watch on Netlify](https://venerable-scone-1cca99.netlify.app).
+[Watch on Netlify](https://splendorous-chaja-6705d6.netlify.app).
 
 ![app_gif](preview.gif)
 
